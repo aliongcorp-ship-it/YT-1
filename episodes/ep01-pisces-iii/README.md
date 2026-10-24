@@ -1,7 +1,7 @@
 # EP01 — *Pisces III*, 1973
 
 **Packaged title:** `1,575 Feet Down. 12 Minutes of Air Left.`
-**Runtime:** ~5:45 · 10 hand-inked plates · narration only (no music bed)
+**Runtime:** 5:43 · 10 hand-inked plates · narration only (no music bed)
 
 | What | Where |
 |---|---|

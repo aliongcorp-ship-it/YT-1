@@ -1,7 +1,7 @@
 # EP01 — Packaging & SEO (research-based, not guessed)
 
 **Episode:** *Pisces III* — the deepest successful submersible rescue in history (29 Aug – 1 Sep 1973).
-**Length:** ~6:40. **Lane:** true-story animated documentary.
+**Length:** 5:43. **Lane:** true-story animated documentary.
 
 ---
 
