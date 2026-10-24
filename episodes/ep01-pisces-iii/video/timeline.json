@@ -1,0 +1,195 @@
+{
+  "slug": "ep01-pisces-iii",
+  "total_seconds": 343.09,
+  "fps": 30,
+  "segments": [
+    {
+      "kind": "card",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/card-title.png",
+      "duration": 3.2,
+      "motion": "in",
+      "scene": null,
+      "id": "card-title",
+      "start": 0.0
+    },
+    {
+      "kind": "plate",
+      "id": "plate-01-interior",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-01-interior.png",
+      "duration": 29.330399999999997,
+      "motion": "in",
+      "scene": "s1",
+      "text": "September first, nineteen seventy-three. Four hundred and eighty metres beneath the Atlantic, two men are sitting in the dark inside a steel sphere that is running out of air. Above them, the surface. Outside them, the weight of the whole ocean. When the hatch finally opens, the engineers will check the cylinder and find twelve minutes of oxygen left. This is the deepest rescue ever completed. And it began with something so ordinary that nobody on the ship looked twice. Three days earlier, the morning of August twenty-ninth was calm. Two hundred and forty kilometres south-west of Cork, the cable ship Vickers Voyager was laying a transatlantic telephone line across the seabed. The work was slow and muddy and repetitive. A submersible crawls along the bottom at walking pace, blasting jets of water into the ooze, then burying the cable behind it. Two men made that dive, again and again. Roger Chapman, twenty-eight. Roger Mallinson, thirty-five. Both professionals. Both, by that morning, a little tired.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s1.mp3",
+      "audio_dur": 64.91,
+      "start": 2.3000000000000003
+    },
+    {
+      "kind": "plate",
+      "id": "plate-02-surface-routine",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-02-surface-routine.png",
+      "duration": 37.3296,
+      "motion": "pan-left",
+      "scene": "s1",
+      "text": "September first, nineteen seventy-three. Four hundred and eighty metres beneath the Atlantic, two men are sitting in the dark inside a steel sphere that is running out of air. Above them, the surface. Outside them, the weight of the whole ocean. When the hatch finally opens, the engineers will check the cylinder and find twelve minutes of oxygen left. This is the deepest rescue ever completed. And it began with something so ordinary that nobody on the ship looked twice. Three days earlier, the morning of August twenty-ninth was calm. Two hundred and forty kilometres south-west of Cork, the cable ship Vickers Voyager was laying a transatlantic telephone line across the seabed. The work was slow and muddy and repetitive. A submersible crawls along the bottom at walking pace, blasting jets of water into the ooze, then burying the cable behind it. Two men made that dive, again and again. Roger Chapman, twenty-eight. Roger Mallinson, thirty-five. Both professionals. Both, by that morning, a little tired.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s1.mp3",
+      "audio_dur": 64.91,
+      "start": 30.7304
+    },
+    {
+      "kind": "plate",
+      "id": "plate-03-accident",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-03-accident.png",
+      "duration": 25.86,
+      "motion": "pan-right",
+      "scene": "s2",
+      "text": "That morning's dive was number three hundred and twenty-five. Eight hours on the bottom, then up, then back to the ship. At nine eighteen the submersible was already on the surface, hanging from a crane, waiting for the towline to be clipped on. That is when the alarm sounded in the aft sphere. The towline had fouled the aft hatch and wrenched it open. Water poured in, into a compartment that held machinery, oil, and a tonne of buoyancy. Pisces Three heeled over, went upside down, and began to fall. Inside, Chapman and Mallinson did the only things they could. They cut the power. They released four hundred pounds of lead ballast. They switched off the depth gauge at five hundred feet, because the glass might burst. Then they put cushions around their heads, so they would not bite through their own tongues when they hit.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s2.mp3",
+      "audio_dur": 49.97,
+      "start": 67.16
+    },
+    {
+      "kind": "plate",
+      "id": "plate-04-descent",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-04-descent.png",
+      "duration": 25.86,
+      "motion": "out",
+      "scene": "s2",
+      "text": "That morning's dive was number three hundred and twenty-five. Eight hours on the bottom, then up, then back to the ship. At nine eighteen the submersible was already on the surface, hanging from a crane, waiting for the towline to be clipped on. That is when the alarm sounded in the aft sphere. The towline had fouled the aft hatch and wrenched it open. Water poured in, into a compartment that held machinery, oil, and a tonne of buoyancy. Pisces Three heeled over, went upside down, and began to fall. Inside, Chapman and Mallinson did the only things they could. They cut the power. They released four hundred pounds of lead ballast. They switched off the depth gauge at five hundred feet, because the glass might burst. Then they put cushions around their heads, so they would not bite through their own tongues when they hit.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s2.mp3",
+      "audio_dur": 49.97,
+      "start": 92.11999999999999
+    },
+    {
+      "kind": "plate",
+      "id": "plate-05-seabed",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-05-seabed.png",
+      "duration": 49.83,
+      "motion": "pan-down",
+      "scene": "s3",
+      "text": "Thirty seconds later, they hit the bottom. Four hundred and eighty metres down. The pressure outside was roughly forty-eight times what it is at the surface. And inside, the arithmetic had already begun. A normal dive carries seventy-two hours of emergency oxygen. Eight of those hours were gone. Sixty-four left, for two men, in a sphere six feet across, in water four degrees above freezing. The aft sphere was flooded, so the craft sat tail-down in the mud. Every system that drew power was off, which meant no heat, and no light. They had one cheese sandwich, and one can of lemonade. They did not open either of them. Not for seventy-six hours. That decision, and the carbon dioxide scrubbers they rationed by hand, is the reason they lived.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s3.mp3",
+      "audio_dur": 48.98,
+      "start": 117.07999999999998
+    },
+    {
+      "kind": "plate",
+      "id": "plate-06-rationing",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-06-rationing.png",
+      "duration": 51.45,
+      "motion": "in",
+      "scene": "s4",
+      "text": "There is a detail in this story that most retellings skip. Carbon dioxide does not only make you sleepy. It makes you stupid. The scrubber fan had to run every forty minutes. They let it run for less. They spoke as little as possible. They barely moved. When the cold got into their bones, they squeezed each other's hands instead of talking. The air went thick and manky, as Mallinson described it. Their heads ached. Their sweat went cold inside their clothes. Through the porthole, for three days, there was nothing to see. No fish. No daylight. Just silt, and the occasional scrape of a line dragging over the hull. Twice they heard something, and let themselves believe it was a rescuer. Twice it wasn't. On the surface, meanwhile, a very large machine was being assembled. Badly.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s4.mp3",
+      "audio_dur": 50.6,
+      "start": 166.00999999999996
+    },
+    {
+      "kind": "plate",
+      "id": "plate-07-surface-rescue",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-07-surface-rescue.png",
+      "duration": 26.318399999999997,
+      "motion": "pan-left",
+      "scene": "s5",
+      "text": "The alarm went out across three navies. A Canadian coast guard ship, the John Cabot, turned for the Celtic Sea. A British survey ship, HMS Hecate, came with special ropes. From California, the United States Navy loaded a remote-controlled recovery vehicle called CURV Three onto an aircraft. In between, the only craft that could actually reach them were two sister submersibles, Pisces Two and Pisces Five. Pisces Two went down first, and lost its lifting line. Pisces Five found them, and its hook failed. Pisces Two came back, and took on water. CURV Three arrived, and had an electrical fault. The men at the bottom could hear the attempts happening. They could not see them. By the end of the second night, Pisces Five was ordered up for power, and they were alone again, with the air going stale.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s5.mp3",
+      "audio_dur": 53.08,
+      "start": 216.55999999999997
+    },
+    {
+      "kind": "plate",
+      "id": "plate-08-failed-attempt",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-08-failed-attempt.png",
+      "duration": 28.5116,
+      "motion": "pan-up",
+      "scene": "s5",
+      "text": "The alarm went out across three navies. A Canadian coast guard ship, the John Cabot, turned for the Celtic Sea. A British survey ship, HMS Hecate, came with special ropes. From California, the United States Navy loaded a remote-controlled recovery vehicle called CURV Three onto an aircraft. In between, the only craft that could actually reach them were two sister submersibles, Pisces Two and Pisces Five. Pisces Two went down first, and lost its lifting line. Pisces Five found them, and its hook failed. Pisces Two came back, and took on water. CURV Three arrived, and had an electrical fault. The men at the bottom could hear the attempts happening. They could not see them. By the end of the second night, Pisces Five was ordered up for power, and they were alone again, with the air going stale.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s5.mp3",
+      "audio_dur": 53.08,
+      "start": 241.97839999999997
+    },
+    {
+      "kind": "plate",
+      "id": "plate-09-the-lift",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-09-the-lift.png",
+      "duration": 31.878,
+      "motion": "in",
+      "scene": "s6",
+      "text": "At four in the morning on September first, Pisces Two went down for one last attempt, carrying a toggle designed for this exact job. It clipped on. Then CURV Three fixed a second line. Only then did Chapman and Mallinson open the sandwich and the lemonade. The lift began at ten fifty, and it was violent. A submersible with a flooded tail, swinging on lines, slamming against itself for two and a half hours. At a hundred metres it stopped, so divers could add heavier cables. At one seventeen in the afternoon, Pisces Three broke the surface. The hatch was jammed. It took another half hour to open it. Chapman and Mallinson had been inside for eighty-four and a half hours. When the cylinder was checked, twelve minutes of oxygen remained. They had stretched seventy-two hours of life support by another twelve and a half, using nothing but patience, arithmetic, and each other. Both men lived for decades afterwards. They phoned one another every September first. And every year the ocean repeated the same lesson. Depth does not kill you. Running out of time does.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s6.mp3",
+      "audio_dur": 67.55,
+      "start": 269.59
+    },
+    {
+      "kind": "plate",
+      "id": "plate-10-surface-hatch",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/plate-10-surface-hatch.png",
+      "duration": 37.422000000000004,
+      "motion": "out",
+      "scene": "s6",
+      "text": "At four in the morning on September first, Pisces Two went down for one last attempt, carrying a toggle designed for this exact job. It clipped on. Then CURV Three fixed a second line. Only then did Chapman and Mallinson open the sandwich and the lemonade. The lift began at ten fifty, and it was violent. A submersible with a flooded tail, swinging on lines, slamming against itself for two and a half hours. At a hundred metres it stopped, so divers could add heavier cables. At one seventeen in the afternoon, Pisces Three broke the surface. The hatch was jammed. It took another half hour to open it. Chapman and Mallinson had been inside for eighty-four and a half hours. When the cylinder was checked, twelve minutes of oxygen remained. They had stretched seventy-two hours of life support by another twelve and a half, using nothing but patience, arithmetic, and each other. Both men lived for decades afterwards. They phoned one another every September first. And every year the ocean repeated the same lesson. Depth does not kill you. Running out of time does.",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s6.mp3",
+      "audio_dur": 67.55,
+      "start": 300.568
+    },
+    {
+      "kind": "card",
+      "image": "/home/user/YT-1/episodes/ep01-pisces-iii/images/card-end.png",
+      "duration": 6.0,
+      "motion": "out",
+      "scene": null,
+      "id": "card-end",
+      "start": 337.09000000000003
+    }
+  ],
+  "scenes": [
+    {
+      "id": "s1",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s1.mp3",
+      "audio_dur": 64.91,
+      "title": "s1",
+      "text": "September first, nineteen seventy-three. Four hundred and eighty metres beneath the Atlantic, two men are sitting in the dark inside a steel sphere that is running out of air. Above them, the surface. Outside them, the weight of the whole ocean. When the hatch finally opens, the engineers will check the cylinder and find twelve minutes of oxygen left. This is the deepest rescue ever completed. And it began with something so ordinary that nobody on the ship looked twice. Three days earlier, the morning of August twenty-ninth was calm. Two hundred and forty kilometres south-west of Cork, the cable ship Vickers Voyager was laying a transatlantic telephone line across the seabed. The work was slow and muddy and repetitive. A submersible crawls along the bottom at walking pace, blasting jets of water into the ooze, then burying the cable behind it. Two men made that dive, again and again. Roger Chapman, twenty-eight. Roger Mallinson, thirty-five. Both professionals. Both, by that morning, a little tired.",
+      "start": 2.3000000000000003
+    },
+    {
+      "id": "s2",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s2.mp3",
+      "audio_dur": 49.97,
+      "title": "s2",
+      "text": "That morning's dive was number three hundred and twenty-five. Eight hours on the bottom, then up, then back to the ship. At nine eighteen the submersible was already on the surface, hanging from a crane, waiting for the towline to be clipped on. That is when the alarm sounded in the aft sphere. The towline had fouled the aft hatch and wrenched it open. Water poured in, into a compartment that held machinery, oil, and a tonne of buoyancy. Pisces Three heeled over, went upside down, and began to fall. Inside, Chapman and Mallinson did the only things they could. They cut the power. They released four hundred pounds of lead ballast. They switched off the depth gauge at five hundred feet, because the glass might burst. Then they put cushions around their heads, so they would not bite through their own tongues when they hit.",
+      "start": 67.16
+    },
+    {
+      "id": "s3",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s3.mp3",
+      "audio_dur": 48.98,
+      "title": "s3",
+      "text": "Thirty seconds later, they hit the bottom. Four hundred and eighty metres down. The pressure outside was roughly forty-eight times what it is at the surface. And inside, the arithmetic had already begun. A normal dive carries seventy-two hours of emergency oxygen. Eight of those hours were gone. Sixty-four left, for two men, in a sphere six feet across, in water four degrees above freezing. The aft sphere was flooded, so the craft sat tail-down in the mud. Every system that drew power was off, which meant no heat, and no light. They had one cheese sandwich, and one can of lemonade. They did not open either of them. Not for seventy-six hours. That decision, and the carbon dioxide scrubbers they rationed by hand, is the reason they lived.",
+      "start": 117.07999999999998
+    },
+    {
+      "id": "s4",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s4.mp3",
+      "audio_dur": 50.6,
+      "title": "s4",
+      "text": "There is a detail in this story that most retellings skip. Carbon dioxide does not only make you sleepy. It makes you stupid. The scrubber fan had to run every forty minutes. They let it run for less. They spoke as little as possible. They barely moved. When the cold got into their bones, they squeezed each other's hands instead of talking. The air went thick and manky, as Mallinson described it. Their heads ached. Their sweat went cold inside their clothes. Through the porthole, for three days, there was nothing to see. No fish. No daylight. Just silt, and the occasional scrape of a line dragging over the hull. Twice they heard something, and let themselves believe it was a rescuer. Twice it wasn't. On the surface, meanwhile, a very large machine was being assembled. Badly.",
+      "start": 166.00999999999996
+    },
+    {
+      "id": "s5",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s5.mp3",
+      "audio_dur": 53.08,
+      "title": "s5",
+      "text": "The alarm went out across three navies. A Canadian coast guard ship, the John Cabot, turned for the Celtic Sea. A British survey ship, HMS Hecate, came with special ropes. From California, the United States Navy loaded a remote-controlled recovery vehicle called CURV Three onto an aircraft. In between, the only craft that could actually reach them were two sister submersibles, Pisces Two and Pisces Five. Pisces Two went down first, and lost its lifting line. Pisces Five found them, and its hook failed. Pisces Two came back, and took on water. CURV Three arrived, and had an electrical fault. The men at the bottom could hear the attempts happening. They could not see them. By the end of the second night, Pisces Five was ordered up for power, and they were alone again, with the air going stale.",
+      "start": 216.55999999999997
+    },
+    {
+      "id": "s6",
+      "audio": "/home/user/YT-1/episodes/ep01-pisces-iii/audio/s6.mp3",
+      "audio_dur": 67.55,
+      "title": "s6",
+      "text": "At four in the morning on September first, Pisces Two went down for one last attempt, carrying a toggle designed for this exact job. It clipped on. Then CURV Three fixed a second line. Only then did Chapman and Mallinson open the sandwich and the lemonade. The lift began at ten fifty, and it was violent. A submersible with a flooded tail, swinging on lines, slamming against itself for two and a half hours. At a hundred metres it stopped, so divers could add heavier cables. At one seventeen in the afternoon, Pisces Three broke the surface. The hatch was jammed. It took another half hour to open it. Chapman and Mallinson had been inside for eighty-four and a half hours. When the cylinder was checked, twelve minutes of oxygen remained. They had stretched seventy-two hours of life support by another twelve and a half, using nothing but patience, arithmetic, and each other. Both men lived for decades afterwards. They phoned one another every September first. And every year the ocean repeated the same lesson. Depth does not kill you. Running out of time does.",
+      "start": 269.59
+    }
+  ]
+}

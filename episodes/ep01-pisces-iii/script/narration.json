@@ -1,0 +1,137 @@
+{
+  "episode": "ep01",
+  "slug": "ep01-pisces-iii",
+  "title_working": "1,575 Feet Down. 12 Minutes of Air Left.",
+  "voice": "en-US, male, 40s, calm, low, unhurried documentary narration. No hype. Slight gravity. Clear consonants, measured pacing, short pauses at full stops.",
+  "wpm_target": 140,
+  "scenes": [
+    {
+      "id": "s1",
+      "plates": [
+        "plate-01-interior",
+        "plate-02-surface-routine"
+      ],
+      "weights": [
+        0.44,
+        0.56
+      ],
+      "text": "September first, nineteen seventy-three. Four hundred and eighty metres beneath the Atlantic, two men are sitting in the dark inside a steel sphere that is running out of air. Above them, the surface. Outside them, the weight of the whole ocean. When the hatch finally opens, the engineers will check the cylinder and find twelve minutes of oxygen left. This is the deepest rescue ever completed. And it began with something so ordinary that nobody on the ship looked twice. Three days earlier, the morning of August twenty-ninth was calm. Two hundred and forty kilometres south-west of Cork, the cable ship Vickers Voyager was laying a transatlantic telephone line across the seabed. The work was slow and muddy and repetitive. A submersible crawls along the bottom at walking pace, blasting jets of water into the ooze, then burying the cable behind it. Two men made that dive, again and again. Roger Chapman, twenty-eight. Roger Mallinson, thirty-five. Both professionals. Both, by that morning, a little tired."
+    },
+    {
+      "id": "s2",
+      "plates": [
+        "plate-03-accident",
+        "plate-04-descent"
+      ],
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "text": "That morning's dive was number three hundred and twenty-five. Eight hours on the bottom, then up, then back to the ship. At nine eighteen the submersible was already on the surface, hanging from a crane, waiting for the towline to be clipped on. That is when the alarm sounded in the aft sphere. The towline had fouled the aft hatch and wrenched it open. Water poured in, into a compartment that held machinery, oil, and a tonne of buoyancy. Pisces Three heeled over, went upside down, and began to fall. Inside, Chapman and Mallinson did the only things they could. They cut the power. They released four hundred pounds of lead ballast. They switched off the depth gauge at five hundred feet, because the glass might burst. Then they put cushions around their heads, so they would not bite through their own tongues when they hit."
+    },
+    {
+      "id": "s3",
+      "plates": [
+        "plate-05-seabed"
+      ],
+      "weights": [
+        1.0
+      ],
+      "text": "Thirty seconds later, they hit the bottom. Four hundred and eighty metres down. The pressure outside was roughly forty-eight times what it is at the surface. And inside, the arithmetic had already begun. A normal dive carries seventy-two hours of emergency oxygen. Eight of those hours were gone. Sixty-four left, for two men, in a sphere six feet across, in water four degrees above freezing. The aft sphere was flooded, so the craft sat tail-down in the mud. Every system that drew power was off, which meant no heat, and no light. They had one cheese sandwich, and one can of lemonade. They did not open either of them. Not for seventy-six hours. That decision, and the carbon dioxide scrubbers they rationed by hand, is the reason they lived."
+    },
+    {
+      "id": "s4",
+      "plates": [
+        "plate-06-rationing"
+      ],
+      "weights": [
+        1.0
+      ],
+      "text": "There is a detail in this story that most retellings skip. Carbon dioxide does not only make you sleepy. It makes you stupid. The scrubber fan had to run every forty minutes. They let it run for less. They spoke as little as possible. They barely moved. When the cold got into their bones, they squeezed each other's hands instead of talking. The air went thick and manky, as Mallinson described it. Their heads ached. Their sweat went cold inside their clothes. Through the porthole, for three days, there was nothing to see. No fish. No daylight. Just silt, and the occasional scrape of a line dragging over the hull. Twice they heard something, and let themselves believe it was a rescuer. Twice it wasn't. On the surface, meanwhile, a very large machine was being assembled. Badly."
+    },
+    {
+      "id": "s5",
+      "plates": [
+        "plate-07-surface-rescue",
+        "plate-08-failed-attempt"
+      ],
+      "weights": [
+        0.48,
+        0.52
+      ],
+      "text": "The alarm went out across three navies. A Canadian coast guard ship, the John Cabot, turned for the Celtic Sea. A British survey ship, HMS Hecate, came with special ropes. From California, the United States Navy loaded a remote-controlled recovery vehicle called CURV Three onto an aircraft. In between, the only craft that could actually reach them were two sister submersibles, Pisces Two and Pisces Five. Pisces Two went down first, and lost its lifting line. Pisces Five found them, and its hook failed. Pisces Two came back, and took on water. CURV Three arrived, and had an electrical fault. The men at the bottom could hear the attempts happening. They could not see them. By the end of the second night, Pisces Five was ordered up for power, and they were alone again, with the air going stale."
+    },
+    {
+      "id": "s6",
+      "plates": [
+        "plate-09-the-lift",
+        "plate-10-surface-hatch"
+      ],
+      "weights": [
+        0.46,
+        0.54
+      ],
+      "text": "At four in the morning on September first, Pisces Two went down for one last attempt, carrying a toggle designed for this exact job. It clipped on. Then CURV Three fixed a second line. Only then did Chapman and Mallinson open the sandwich and the lemonade. The lift began at ten fifty, and it was violent. A submersible with a flooded tail, swinging on lines, slamming against itself for two and a half hours. At a hundred metres it stopped, so divers could add heavier cables. At one seventeen in the afternoon, Pisces Three broke the surface. The hatch was jammed. It took another half hour to open it. Chapman and Mallinson had been inside for eighty-four and a half hours. When the cylinder was checked, twelve minutes of oxygen remained. They had stretched seventy-two hours of life support by another twelve and a half, using nothing but patience, arithmetic, and each other. Both men lived for decades afterwards. They phoned one another every September first. And every year the ocean repeated the same lesson. Depth does not kill you. Running out of time does."
+    }
+  ],
+  "title_card": {
+    "image": "episodes/ep01-pisces-iii/images/card-title.png",
+    "duration": 3.2
+  },
+  "end_card": {
+    "image": "episodes/ep01-pisces-iii/images/card-end.png",
+    "duration": 6.0
+  },
+  "plates": [
+    {
+      "id": "plate-01-interior",
+      "image": "episodes/ep01-pisces-iii/images/plate-01-interior.png",
+      "motion": "in"
+    },
+    {
+      "id": "plate-02-surface-routine",
+      "image": "episodes/ep01-pisces-iii/images/plate-02-surface-routine.png",
+      "motion": "pan-left"
+    },
+    {
+      "id": "plate-03-accident",
+      "image": "episodes/ep01-pisces-iii/images/plate-03-accident.png",
+      "motion": "pan-right"
+    },
+    {
+      "id": "plate-04-descent",
+      "image": "episodes/ep01-pisces-iii/images/plate-04-descent.png",
+      "motion": "out"
+    },
+    {
+      "id": "plate-05-seabed",
+      "image": "episodes/ep01-pisces-iii/images/plate-05-seabed.png",
+      "motion": "pan-down"
+    },
+    {
+      "id": "plate-06-rationing",
+      "image": "episodes/ep01-pisces-iii/images/plate-06-rationing.png",
+      "motion": "in"
+    },
+    {
+      "id": "plate-07-surface-rescue",
+      "image": "episodes/ep01-pisces-iii/images/plate-07-surface-rescue.png",
+      "motion": "pan-left"
+    },
+    {
+      "id": "plate-08-failed-attempt",
+      "image": "episodes/ep01-pisces-iii/images/plate-08-failed-attempt.png",
+      "motion": "pan-up"
+    },
+    {
+      "id": "plate-09-the-lift",
+      "image": "episodes/ep01-pisces-iii/images/plate-09-the-lift.png",
+      "motion": "in"
+    },
+    {
+      "id": "plate-10-surface-hatch",
+      "image": "episodes/ep01-pisces-iii/images/plate-10-surface-hatch.png",
+      "motion": "out"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# renders and heavy intermediates never go to git — they are delivered via Drive
+episodes/*/video/*.mp4
+episodes/*/video/*.mov
+episodes/*/video/clips/
+episodes/*/audio/*.mp3
+episodes/*/audio/*.wav
+tools/__pycache__/
+*.pyc
+.cache/
+node_modules/
