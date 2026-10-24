@@ -302,25 +302,56 @@ def _sentences(text: str):
     return [p.strip() for p in parts if p.strip()]
 
 
-def write_srt(timeline: dict, path: str, max_chars: int = 84):
+def _split_long(sentence: str, limit: int):
+    """Split a long sentence into balanced chunks, snapping to punctuation/space."""
+    if len(sentence) <= limit:
+        return [sentence]
+    n = math.ceil(len(sentence) / limit)
+    target = len(sentence) / n
+    chunks, rest = [], sentence
+    while len(rest) > limit:
+        want = target
+        # snap backwards to a comma, then to a word boundary
+        window = rest[: int(want) + 18]
+        cut = window.rfind(", ")
+        if cut < want * 0.6:
+            cut = rest.rfind(" ", 0, int(want) + 12)
+        if cut <= 0:
+            cut = int(want)
+        chunks.append(rest[: cut + 1].strip() if rest[cut] == "," else rest[:cut].strip())
+        rest = rest[cut + 1:].strip() if rest[cut] == "," else rest[cut:].strip()
+    if rest:
+        chunks.append(rest)
+    return [c for c in chunks if c]
+
+
+def write_srt(timeline: dict, path: str, limit: int = 90):
+    """Two lines max per cue, no overlaps, durations proportional to text length."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
+    scenes = [sc for sc in timeline["scenes"] if sc.get("text")]
     cues = []
-    for sc in timeline["scenes"]:
-        text = sc.get("text", "")
-        sents = _sentences(text)
-        if not sents:
+    for i, sc in enumerate(scenes):
+        text = sc["text"]
+        chunks = []
+        for sent in _sentences(text):
+            chunks.extend(_split_long(sent, limit))
+        if not chunks:
             continue
-        weights = [max(1, len(s)) for s in sents]
+        weights = [max(1, len(c)) for c in chunks]
         wsum = sum(weights)
         t = sc["start"]
-        dur = sc["audio_dur"]
-        for s, w in zip(sents, weights):
-            d = dur * w / wsum
-            body = textwrap.fill(s, width=52)
-            if len(body) > max_chars:
-                body = textwrap.fill(s, width=64)
-            cues.append((t, t + d, body))
+        next_start = scenes[i + 1]["start"] if i + 1 < len(scenes) else sc["start"] + sc["audio_dur"] + 1.0
+        avail = min(sc["audio_dur"], max(0.6, next_start - t - 0.06))
+        for c, w in zip(chunks, weights):
+            d = avail * w / wsum
+            cues.append([t, t + d, textwrap.fill(c, width=48)])
             t += d
+
+    # clamp: no overlap, minimum 0.9 s on screen
+    for i in range(len(cues)):
+        if i + 1 < len(cues):
+            cues[i][1] = min(cues[i][1], cues[i + 1][0] - 0.04)
+            cues[i][1] = max(cues[i][1], cues[i][0] + 0.6)
     with open(path, "w") as f:
         for i, (a, b, body) in enumerate(cues, 1):
             f.write(f"{i}\n{_fmt(a)} --> {_fmt(b)}\n{body}\n\n")
