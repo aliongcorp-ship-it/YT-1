@@ -325,8 +325,15 @@ def build_thumbnail(slug="ep01-pisces-iii"):
         target_w = int(W * 0.62)
         scale = max(target_w / plate.width, H / plate.height)
         plate = plate.resize((int(plate.width * scale) + 1, int(plate.height * scale) + 1), Image.LANCZOS)
-        plate = plate.crop((0, (plate.height - H) // 2, target_w, (plate.height - H) // 2 + H))
-        bg.paste(plate, (W - target_w, 0))
+        top = (plate.height - H) // 2
+        left = max(0, plate.width - target_w - int(target_w * 0.18))  # keep the sub and Wick in frame
+        plate = plate.crop((left, top, left + target_w, top + H))
+        # feather the left edge over 240 px so the plate melts into the ink field
+        m = Image.new("L", (target_w, H), 255)
+        md = ImageDraw.Draw(m)
+        for x in range(240):
+            md.line([(x, 0), (x, H)], fill=int(255 * (x / 240) ** 1.35))
+        bg.paste(plate, (W - target_w, 0), m)
 
     # ink scrim on the left so type always reads
     scrim = Image.new("RGBA", (W, H), (0, 0, 0, 0))

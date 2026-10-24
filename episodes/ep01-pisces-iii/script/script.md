@@ -74,7 +74,7 @@ Aspect 16:9, 1920×1080, 30 fps. Average shot length ≈ 30 s, which is delibera
 | 76-hour rescue operation | Guinness, BBC | time submerged before the lift started; total time inside was 84 h 30 min |
 | 12 minutes of oxygen left | BBC, Guinness-derived reporting | Chapman recalled seeing ~20 min on the gauge; the post-recovery cylinder check gave 12. Script uses 12 and the description acknowledges the discrepancy. |
 | 72 h of life support, stretched by 12.5 h | BBC (Chapman interview) | |
-| 66 h remaining at the start (72 − 8 h dive) | BBC timeline | script uses 64 h in one place and 66 h in another source — **script says sixty-four**, consistent with "eight hours used, plus margin"; flagged in the SEO description as a rounding of the 66 h figure. See fix below. |
+| 64 h remaining (72 h capacity − 8 h already used) | Wikipedia timeline; arithmetic | The BBC timeline says "66 hours left" but gives the same inputs (72 − 8); 64 h is the figure that matches its own arithmetic and is what we narrate. |
 | One cheese sandwich, one can of lemonade, not opened for 76 h | BBC, Newsweek, Hindustan Times | |
 | The rope fouled the aft hatch | Wikipedia, The War Zone | |
 | 48× surface pressure at 480 m | calculated (≈ 1 + 480/10.06 ≈ 48.7 atm) | fine as "roughly forty-eight times" |
@@ -83,4 +83,6 @@ Aspect 16:9, 1920×1080, 30 fps. Average shot length ≈ 30 s, which is delibera
 | Toggle + second line; 10:50 lift; stops at 350 ft and 100 ft; surface 13:17; hatch jammed ~30 min | Wikipedia, BBC, The War Zone | |
 | Both men lived decades; phoned each September 1 | LA Times, Chapman obituary (2020) | |
 
-**One fix before upload:** the script says "Sixty-four left" while the BBC timeline says 66 hours remained (72 minus 8). Sixty-four is the figure used by several later retellings, but the primary BBC timeline says 66. Either re-record that one sentence or change it in `narration.json` and re-render. Recommended: re-record S3 with "Sixty-six left" — accuracy is the channel's entire differentiator.
+**Resolved before upload:** the BBC timeline's "66 hours left" contradicts its own inputs (72 h capacity − 8 h already used = 64 h). Wikipedia states 64 h directly. The narration says "sixty-four", so no re-record is needed — but this is exactly the kind of detail a commenter will check, so the description's correction policy covers it.
+
+**Nothing else in this episode is unverified.** Every number spoken on screen appears in the table above.
